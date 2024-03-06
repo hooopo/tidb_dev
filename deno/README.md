@@ -14,7 +14,7 @@ import { connect } from "npm:@tidbcloud/serverless";
 
 ## Configuring the Connection
 
-To connect to a TiDB Serverless database, you need a database URL. This can be obtained after creating a database on TiDB Serverless. Follow the setup instructions provided in the [TiDB documentation](https://docs.pingcap.com/tidbcloud/beta/create-tidb-cluster).
+To connect to a TiDB Serverless database, you need a database URL. This can be obtained after creating a database on TiDB Serverless. Follow the setup instructions provided in the [TiDB documentation](https://docs.pingcap.com/tidbcloud/create-tidb-cluster-serverless).
 
 Securely store your database URL in an environment variable in .env file:
 
@@ -86,5 +86,5 @@ An important feature of TiDB Serverless is its compatibility with MySQL. This me
 
 ## Conclusion
 
-This README guides you through setting up a simple Deno application that interacts with a TiDB Serverless database. TiDB Serverless's global distribution and MySQL compatibility make it an ideal choice for scalable, serverless applications. For further information and advanced features, consult the [TiDB documentation](https://docs.pingcap.com/tidbcloud/beta/).
+This README guides you through setting up a simple Deno application that interacts with a TiDB Serverless database. TiDB Serverless's global distribution and MySQL compatibility make it an ideal choice for scalable, serverless applications. For further information and advanced features, consult the [TiDB documentation](https://docs.pingcap.com/tidbcloud/).
 
