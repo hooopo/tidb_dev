@@ -16,11 +16,13 @@ import { connect } from "npm:@tidbcloud/serverless";
 
 To connect to a TiDB Serverless database, you need a database URL. This can be obtained after creating a database on TiDB Serverless. Follow the setup instructions provided in the [TiDB documentation](https://docs.pingcap.com/tidbcloud/beta/create-tidb-cluster).
 
-Securely store your database URL in an environment variable:
+Securely store your database URL in an environment variable in .env file:
 
 ```bash
-export DATABASE_URL=<your_database_url>
+DATABASE_URL=<your_database_url>
 ```
+
+For production in deno deploy, you can set the environment variables in the dashboard.
 
 Load this environment variable in your `main.ts` file:
 
